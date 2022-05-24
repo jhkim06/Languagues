@@ -1,0 +1,15 @@
+//
+//  Config.xcconfig
+//  Drill_Project13
+//
+//  Created by Junho Kim on 2022/05/20.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+HEADER_SEARCH_PATHS = -I/usr/local/include
+LIBRARY_SEARCH_PATHS = /Users/jhkim/Learning/C++/Stroustrup/GUI
+OTHER_LDFLAGS = -L/usr/local/lib -lfltk -lpthread -framework Cocoa -L/Users/jhkim/Learning/C++/Stroustrup/GUI -lfltk_images -lfltk_jpeg -lbookgui
+SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include
+USER_HEADER_SEARCH_PATHS = /Users/jhkim/Learning/C++/Stroustrup/GUI
